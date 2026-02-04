@@ -1,6 +1,9 @@
 {
-  "name": "suitecrm-client",
-  "version": "1.0.0",
+  "name": "@cesarujos/suitecrm-client",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
   "description": "Cliente para la API REST v4.1 de SuiteCRM para Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +22,11 @@
     "client",
     "rest"
   ],
-  "author": "",
+  "author": {
+    "name": "Cesarujos",
+    "email": "cjuriartec@gmail.com",
+    "url": "https://github.com/cesarujos2"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^1.13.4",
