@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cliente para la API REST v4.1 de SuiteCRM para Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,7 +25,11 @@
   "author": {
     "name": "Cesarujos",
     "email": "cjuriartec@gmail.com",
-    "url": "https://github.com/cjuriatec"
+    "url": "https://github.com/cjuriartec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjuriartec/node-suitecrm-client.git"
   },
   "dependencies": {
     "axios": "^1.13.4",
