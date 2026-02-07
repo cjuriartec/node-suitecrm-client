@@ -129,6 +129,4 @@ src/
 └── index.ts            # Public API
 ```
 
-## Licencia
 
-ISC
